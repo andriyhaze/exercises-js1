@@ -3,8 +3,8 @@ function birthYear(age) {
 }
 
 function sentence(name, age) {
-  var year = birthYear(age);
-  var message = `My name is ${name} and I was born in ${year}.`;
+  let year = birthYear(age);
+  const message = `My name is ${name} and I was born in ${year}.`;
   return message;
 }
 
