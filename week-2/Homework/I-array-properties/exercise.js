@@ -5,10 +5,13 @@
 
 */
 
+// complete this statement
 function isEmpty(arr) {
-  return; // complete this statement
+  if (arr.length < 1) {
+    return true;
+  }
+  return false;
 }
-
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

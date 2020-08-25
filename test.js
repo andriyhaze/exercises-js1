@@ -1,15 +1,7 @@
-const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
-
-for (let i = 0; i < daysOfWeek.length; i++) {
-  const dayMessage = "day is: " + daysOfWeek[i];
-  const indexMessage = "index is: " + i;
-  console.log(indexMessage, dayMessage);
+function getAllFrequencies() {
+  let freq = [];
+  for (i = 87; i <= 108; i++) {
+    freq.push(i);
+  }
 }
+console.log(getAllFrequencies());
