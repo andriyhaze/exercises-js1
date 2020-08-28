@@ -5,18 +5,18 @@
   The variable `lastFive` should contain the last five items of `everyone`
 */
 
-var everyone = [
+const everyone = [
   "Daniel",
   "Irina",
   "Rares",
   "Rukmini",
   "Abdul",
   "Austine",
-  "Swathi"
+  "Swathi",
 ];
 
-var firstFive; // complete this statement
-var lastFive; // complete this statement
+const firstFive = everyone.slice(0, 5); // complete this statement
+const lastFive = everyone.slice(5, 7); // complete this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
